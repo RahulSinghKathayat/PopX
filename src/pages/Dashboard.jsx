@@ -2,8 +2,8 @@ import React from "react";
 import { Heading } from "../components/Heading";
 import { Subheading } from "../components/Subheading";
 import { Appbar } from "../components/Appbar";
-import girl from "D:/Projects/Assignments/popx/src/assets/Ellipse 114/Ellipse 114@2x.png"
-import edit from "D:/Projects/Assignments/popx/src/assets/Group 1585.svg"
+import girl from "../assets/Ellipse 114/Ellipse 114@2x.png"
+import edit from "../assets/Group 1585.svg"
 
 export function Dashboard(){
     return ( 
