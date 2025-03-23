@@ -1,11 +1,11 @@
 import React from "react";
 
-export function Button({label, onClick}){
+export function Button({label, onClick, className}){
     return <button
     
-        onClick={onClick}
+      onClick={onClick}
       type="submit"
-      className="relative bottom-0 flex justify-center items-center gap-2 border border-[#6C25FF] rounded-xl text-[#FFF] font-black bg-[#6C25FF] uppercase px-8 py-4 z-10 overflow-hidden ease-in-out duration-700 group hover:text-[#000] hover:bg-[#FFF] active:scale-95 active:duration-0 focus:bg-[#FFF] focus:text-[#000] isolation-auto before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#FFF] before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700"
+      className={`${className} relative w-full bottom-0 flex justify-center items-center gap-2 border border-[#6C25FF] rounded-xl text-[#FFF] font-black bg-[#6C25FF] uppercase px-8 py-4 z-10 overflow-hidden ease-in-out duration-700 group hover:text-[#000] hover:bg-[#FFF] active:scale-95 active:duration-0 focus:bg-[#FFF] focus:text-[#000] isolation-auto before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#FFF] before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700`}
     >
       <span
         className="truncate eaes-in-out duration-300 group-active:-translate-x-96 group-focus:translate-x-96"

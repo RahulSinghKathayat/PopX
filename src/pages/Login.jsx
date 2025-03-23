@@ -14,7 +14,7 @@ export function Login(){
             <div className="relative w-120 h-150 pt-5 pl-5 my-20 shadow-2xl bg-[#F7F8F9] rounded overflow-hidden flex flex-col items-left space-y-2">
                 <div className="pr-60"><Heading label={"Signin to your PopX account"}></Heading></div>
                 <div className="pr-30"><Subheading label={"Lorem ipsum dolor sit amet, consectetur adipiscing elit,"}></Subheading></div>
-            <div className="text-white relative space-y-5 py-8">
+            <div className="text-white relative space-y-5 py-8 pr-10">
                 <Inputbox label={"Username"} placeholder={"Username"}></Inputbox>
                 <Inputbox label={"Password"} placeholder={"Password"}></Inputbox>
                 
