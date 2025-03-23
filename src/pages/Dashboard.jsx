@@ -17,7 +17,7 @@ export function Dashboard(){
                 className="w-20 h-20 object-cover"  />
                 
                 <img src={edit} alt="editProfile"
-                className= "w-5 h-5 absolute bottom-17 right-98 translate-x-1/2 translate-y-1/2" />
+                className= "w-5 h-5 absolute bottom-17 right-92 translate-x-1/2 translate-y-1/2" />
             <div className="text-[15px] pt-2 text-[#1D2226] font-bold">Marry Doe</div>
             <div className="text-[14px] text-[#1D2226]">Marry@Gmail.Com</div>
             </div>
